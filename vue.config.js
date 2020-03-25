@@ -5,7 +5,6 @@ module.exports = {
   pages: {
     app1: {
       entry: 'src/app1/main.js',
-      template: 'templates/base.html',
     }
   }
 }

@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/Takashi-PortFolio/img/susi1027481.cfe47dd6.jpg"
   },
   {
-    "revision": "6dadbd27b2034abacdd25e6baeef3d8b",
+    "revision": "648e4277d50df7a69414858f9e9db259",
     "url": "/Takashi-PortFolio/app1.html"
   },
   {
