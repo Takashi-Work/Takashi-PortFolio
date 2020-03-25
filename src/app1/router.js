@@ -12,7 +12,7 @@ Vue.config.devtools = true
 
 export default new Router({
   mode: 'history',
-  base: '/app1',
+  base: '/app1/',
   routes: [
     {
       path: '/',
