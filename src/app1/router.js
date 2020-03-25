@@ -11,7 +11,7 @@ Vue.use(Router)
 Vue.config.devtools = true
 
 export default new Router({
-  mode: 'history',
+ // mode: 'history',
   base: '/app1',
   routes: [
     {
