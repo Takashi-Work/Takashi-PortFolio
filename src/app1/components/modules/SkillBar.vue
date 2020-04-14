@@ -69,7 +69,6 @@ export default {
 <style lang="scss" scoped>
 .ms
 {
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 80vh;

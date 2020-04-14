@@ -15,25 +15,26 @@
 
      <div class="front-side">
       <div class="profile_mes"  @click="base_modalShow">
-           
+          <h1>Click~Here</h1>
+        
       </div>
      </div>
 
      <div class="back-side"  @click="base_modalShow">
       <div class="profile_mes">
-
+         <h1>Click~Here</h1>
       </div>
      </div>
 
      <div class="left-side"  @click="base_modalShow">
        <div class="profile_mes">
-
+          <h1>Click~Here</h1>
        </div>
      </div>
 
      <div class="right-side"  @click="base_modalShow">
       <div class="profile_mes">
-
+         <h1>Click~Here</h1>
       </div>
      </div>
 
@@ -81,7 +82,9 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-@media screen and (max-width: 475px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
+.profile::-webkit-scrollbar{ 
+    display:none;
+}
 .profile
 {
   overflow: auto;
@@ -96,7 +99,7 @@ export default {
   {
     margin: 80px 0 0 40px ;
     height: 100vh;
-    width:  100%;
+    width: 50vw;
 
     .hello
     {
@@ -106,21 +109,24 @@ export default {
 
       .sp1
       {
-        margin-left: 30px ;
+        margin-left: 70px ;
         color: #fff;
         font-size: 50px;
       }
 
       .sp2
       {
-        margin-left: 70px ;
+        margin-left: 130px ;
         color: #fff;
-        font-size: 50px;
+        font-size: 60px;
       }
     }
   }
 }
-.rotating-box{
+
+
+@media screen and(max-width: 475px){
+  .rotating-box{
   width: 200px;
   height: 400px;
   margin: 300px 0 0 -300px;
@@ -141,13 +147,15 @@ export default {
 
     .profile_mes{
       width: 200px;
-      height: 400px;   
+      height: 400px;  
     }
 
     .front-side{
       transform: translateZ(100px);
       background:  url('../../assets/photos/MIYA19224blueDSC_6386_TP_V.jpg');
       background-size: cover;
+      
+      
     }
 
     .back-side{
@@ -190,61 +198,14 @@ export default {
       background:  url('../../assets/photos/MIYA19224blueDSC_6386_TP_V.jpg');
       background-size: cover;
     }
-
-    @keyframes rotate{
-      0%{transform: rotateY(0);}
-      100%{transform: rotateY(360deg);}   
-    }
   }
+ }
 }
-}
-
-
-@media screen and (min-width: 475px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
-.profile
-{
-  overflow: auto;
-  height: 100vh;
-  width: 100vw;
-  z-index: 1;
-  background:  url('../../assets/photos/MIYA19224blueDSC_6386_TP_V.jpg');
-  background-size: cover;
-  display: flex;
-
-  .messages
-  {
-    margin: 80px 0 0 40px ;
-    height: 100vh;
-    width:  100%;
-
-    .hello
-    {
-      font-family: 'Constantia';
-      color: gainsboro;
-      font-size: 49px;
-
-      .sp1
-      {
-        margin-left: 70px ;
-        color: #fff;
-        font-size: 50px;
-      }
-
-      .sp2
-      {
-        margin-left: 130px ;
-        color: #fff;
-        font-size: 50px;
-      }
-    }
-  }
-}
-
-
+@media screen and(min-width: 475px){
 .rotating-box{
   width: 300px;
   height: 400px;
-  margin: 300px 0 0 -450px;
+  margin: 300px 0 0 -35%;
   perspective:  600px;
 
   .single-rb{
@@ -263,6 +224,12 @@ export default {
     .profile_mes{
       height: 400px;
       width: 300px;
+
+      h1{
+        margin: 50% 10%;
+        color: #fff;
+        font-family: Segoe Script;
+      }
     }
 
     .front-side{
@@ -311,176 +278,88 @@ export default {
       background:  url('../../assets/photos/MIYA19224blueDSC_6386_TP_V.jpg');
       background-size: cover;
     }
-
-    @keyframes rotate{
-      0%{transform: rotateY(0);}
-      100%{transform: rotateY(360deg);}   
-    }
   }
+ }
 }
-}
-
-
-@media screen and (min-width: 800px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
-.profile
-{
-  overflow: hidden;
-  height: 100vh;
-  width: 100vw;
-  z-index: 1;
-  background:  url('../../assets/photos/MIYA19224blueDSC_6386_TP_V.jpg');
-  background-size: cover;
-  display: flex;
-
-  .messages
-  {
-    margin: 80px 0 0 40px ;
-    height: 100vh;
-    width: 50vw;
-
-    .hello
-    {
-      font-family: 'Constantia';
-      color: gainsboro;
-      font-size: 49px;
-
-      .sp1
-      {
-        margin-left: 70px ;
-        color: #fff;
-        font-size: 50px;
-      }
-
-      .sp2
-      {
-        margin-left: 130px ;
-        color: #fff;
-        font-size: 60px;
-      }
-    }
-  }
-}
+@media screen and (min-width: 800px){
 .rotating-box{
-  width: 200px;
+  width: 400px;
   height: 400px;
-  margin: 10px auto;
-  perspective:  400px;
+  margin: 300px 0 0 -27%;
+  perspective:  800px;
 
   .single-rb{
-    width: 200px;
+    width: 400px;
     animation: rotate 15s linear infinite;
     transform-style: preserve-3d;
     margin: 120px 100px 0 0;
 
 
-    div{
+   div{
       position: absolute;
-      width: 200px;
+      width: 400px;
       height: 400px;
     }
 
     .profile_mes{
-      width: 200px;
-      height: 400px;   
+      height: 400px;
+      width: 400px;
+
+      h1{
+        margin: 50% 25%;
+        color: #fff;
+        font-family: Segoe Script;
+      }
     }
 
     .front-side{
-      transform: translateZ(100px);
-      background:  url('../../assets/photos/MIYA19224blueDSC_6386_TP_V.jpg');
+      transform: translateZ(200px);
+      background:  url('../../assets/photos/TSU413004.jpg');
       background-size: cover;
     }
 
     .back-side{
       transform: rotateY(180deg)
-      translateZ(100px);
-       background:  url('../../assets/photos/MIYA19224blueDSC_6386_TP_V.jpg');
+      translateZ(200px);
+       background:  url('../../assets/photos/TSU413016.jpg');
       background-size: cover;
     }
 
     .left-side{
       transform: rotateY(-90deg)
-      translateX(-100px);
+      translateX(-200px);
       transform-origin: left;
-      background:  url('../../assets/photos/MIYA19224blueDSC_6386_TP_V.jpg');
+      background:  url('../../assets/photos/TSU413003.jpg');
       background-size: cover;
     }
 
     .right-side{
       transform: rotateY(90deg)
-      translateX(100px);
+      translateX(200px);
       transform-origin: right;
-      background:  url('../../assets/photos/MIYA19224blueDSC_6386_TP_V.jpg');
+      background:  url('../../assets/photos/TSU413013_TP_V.jpg');
       background-size: cover;
     }
 
     .top-side{
-      height: 200px;
       transform: rotateX(-90deg)
-      translateY(-100px);
+      translateY(-200px);
       transform-origin: top;
-      background:  url('../../assets/photos/MIYA19224blueDSC_6386_TP_V.jpg');
+      background:  url('../../assets/photos/TSU413012_TP_V.jpg');
       background-size: cover;
     }
 
     .bottom-side{
-      height: 200px;
       transform: rotateX(90deg)
-      translateY(100px);
+      translateY(200px);
       transform-origin: bottom;
-      background:  url('../../assets/photos/MIYA19224blueDSC_6386_TP_V.jpg');
+      background:  url('../../assets/photos/TSU413012_TP_V.jpg');
       background-size: cover;
     }
-
-    @keyframes rotate{
-      0%{transform: rotateY(0);}
-      100%{transform: rotateY(360deg);}   
-    }
+   }
   }
 }
-}
-
-
-@media screen and (min-width: 1000px) { /*ウィンドウ幅が767px以上の場合に適用*/
-.profile
-{
-  overflow: hidden;
-  height: 100vh;
-  width: 100vw;
-  z-index: 1;
-  background:  url('../../assets/photos/MIYA19224blueDSC_6386_TP_V.jpg');
-  background-size: cover;
-  display: flex;
-
-  .messages
-  {
-    margin: 80px 0 0 40px ;
-    height: 100vh;
-    width: 50vw;
-
-    .hello
-    {
-      font-family: 'Constantia';
-      color: gainsboro;
-      font-size: 49px;
-
-      .sp1
-      {
-        margin-left: 70px ;
-        color: #fff;
-        font-size: 50px;
-      }
-
-      .sp2
-      {
-        margin-left: 130px ;
-        color: #fff;
-        font-size: 60px;
-      }
-    }
-  }
-}
-
-
+@media screen and (min-width: 1000px){
 .rotating-box{
   width: 400px;
   height: 400px;
@@ -503,18 +382,24 @@ export default {
     .profile_mes{
       height: 400px;
       width: 400px;
+
+      h1{
+        margin: 50% 25%;
+        color: #fff;
+        font-family: Segoe Script;
+      }
     }
 
     .front-side{
       transform: translateZ(200px);
-      background:  url('../../assets/photos/MIYA19224blueDSC_6386_TP_V.jpg');
+      background:  url('../../assets/photos/TSU413004.jpg');
       background-size: cover;
     }
 
     .back-side{
       transform: rotateY(180deg)
       translateZ(200px);
-       background:  url('../../assets/photos/MIYA19224blueDSC_6386_TP_V.jpg');
+       background:  url('../../assets/photos/TSU413016.jpg');
       background-size: cover;
     }
 
@@ -522,7 +407,7 @@ export default {
       transform: rotateY(-90deg)
       translateX(-200px);
       transform-origin: left;
-      background:  url('../../assets/photos/MIYA19224blueDSC_6386_TP_V.jpg');
+      background:  url('../../assets/photos/TSU413003.jpg');
       background-size: cover;
     }
 
@@ -530,7 +415,7 @@ export default {
       transform: rotateY(90deg)
       translateX(200px);
       transform-origin: right;
-      background:  url('../../assets/photos/MIYA19224blueDSC_6386_TP_V.jpg');
+      background:  url('../../assets/photos/TSU413013_TP_V.jpg');
       background-size: cover;
     }
 
@@ -538,7 +423,7 @@ export default {
       transform: rotateX(-90deg)
       translateY(-200px);
       transform-origin: top;
-      background:  url('../../assets/photos/MIYA19224blueDSC_6386_TP_V.jpg');
+      background:  url('../../assets/photos/TSU413012_TP_V.jpg');
       background-size: cover;
     }
 
@@ -546,17 +431,19 @@ export default {
       transform: rotateX(90deg)
       translateY(200px);
       transform-origin: bottom;
-      background:  url('../../assets/photos/MIYA19224blueDSC_6386_TP_V.jpg');
+      background:  url('../../assets/photos/TSU413012_TP_V.jpg');
       background-size: cover;
     }
 
-    @keyframes rotate{
-      0%{transform: rotateY(0);}
-      100%{transform: rotateY(360deg);}   
-    }
+   
   }
 }
 }
+@keyframes rotate{
+  0%{transform: rotateY(0);}
+  100%{transform: rotateY(360deg);}   
+}
+
 
 
 

@@ -63,6 +63,7 @@ export default {
 <style  lang="scss" scoped>
 .hello
 {
+  perspective: 1000px;
   font-family: 'Constantia';
   margin: 0;
   padding: 0;
@@ -103,24 +104,21 @@ export default {
     .window
     {
        overflow: hidden;
-       height: 130vh;
+       height: 110vh;
        width: 100vw;
        position: relative;
-       background:  url('../../assets/photos/susi1027481.jpg') rgba(144, 149, 135.4);
-       background-size: cover;
-       z-index: 2;
 
        #main
        {
          overflow: hidden;
-         height: 100vh;
+         height: 109vh;
          pointer-events: auto;
          position: relative;
          z-index: 4;
          background:  url('../../assets/photos/TSU413004.jpg') rgba(214, 221, 203.7);
          background-size: cover;
          background-repeat: no-repeat;
-         transform-origin:  65%;
+         transform-origin:  right;
          transition: all 0.8s ease-in-out;
          box-shadow: 60px 30px 30px 20px rgba(0,0,0,0.7);
 
@@ -166,12 +164,24 @@ export default {
 
          justify-content: center;
          box-shadow: 0 0 30px rgba(0,0,0,0.9);
-         transform-origin:  65% ;
+         transform-style: preserve-3d;
+         transform-origin:right ;
          transition: all 0.8s ease-in-out;
-         transform: rotate(10deg)
-         translate(223px 0 0);
-
+         transform: rotateY(-14deg);
        }
+        @media (max-width: 600px) {
+          &.show
+          {
+            overflow: hidden;
+            pointer-events: none;
+            justify-content: center;
+            box-shadow: 0 0 30px rgba(0,0,0,0.9);
+            transform-style: preserve-3d;
+            transform-origin:right ;
+            transition: all 0.8s ease-in-out;
+            transform: rotateY(-46deg);
+          }
+       } 
        &.closed
        {
          overflow: hidden;
@@ -179,7 +189,7 @@ export default {
 
          justify-content: center;
          transition: all 0.8s ease-in-out;
-         transform: rotate(0deg)
+         transform: rotateY(0deg)
          translate(0 0 0);
        }
     }
