@@ -5,14 +5,14 @@
      <div class="row100">
          <div class="col">
            <div class="inputBox">
-             <input type="text" name="" required="required">
+             <input type="text" v-model="first_name" name="" required="required">
              <span class="text">First_Name</span>
              <span class="line"></span>
            </div>
          </div>
          <div class="col">
            <div class="inputBox">
-             <input type="text" name="" required="required">
+             <input type="text" v-model="last_name" name="" required="required">
              <span class="text">Last_Name</span>
              <span class="line"></span>
            </div>
@@ -21,23 +21,17 @@
      <div class="row100">
          <div class="col">
            <div class="inputBox">
-             <input type="text" name="" required="required">
+             <input type="text" v-model="e_mail" name="" required="required">
              <span class="text">E_Mail</span>
              <span class="line"></span>
            </div>
          </div>
-         <div class="col">
-           <div class="inputBox">
-             <input type="text" name="" required="required">
-             <span class="text">Phon_Number</span>
-             <span class="line"></span>
-           </div>
-         </div>
+      
      </div>
      <div class="row100">
          <div class="col">
            <div class="inputBox textarea">
-            <textarea required="required"></textarea>
+            <textarea required="required" v-model="message"></textarea>
              <span class="text">Message</span>
              <span class="line"></span>
            </div>
@@ -45,7 +39,7 @@
      </div>
      <div class="row100">
        <div class="col">
-         <input type ="submit" value="Send">
+         <input type ="submit" @click="send()">
        </div>
      </div>
    </div>
@@ -53,13 +47,38 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
   name: 'Infometion',
   data () {
     return {
-      name: '',
-      password: ''
+      first_name: '',
+      last_name: '',
+      e_mail: '',
+      message: ''
     }
+  },
+
+  methods: {
+
+    send (){
+        axios.post('https://script.google.com/d/171mTyF1671cvOnK4UBsYLU89b8emT00bWYaWoBfme7cACW7IaUScPssG/edit?usp=drive_web&folder=0AF30BaPPMzfXUk9PVA&splash=yes', {
+          first_name: this.first_name,
+          last_name: this.last_name,
+          e_mail: this.e_mail,
+          message: this.message
+        
+        })
+          .then(response => {
+           
+          // console.log(response);
+          })
+          .catch(error => {
+            console.log(error.response)
+  
+          })
+    }
+
   }
 }
 </script>

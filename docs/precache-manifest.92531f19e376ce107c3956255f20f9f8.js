@@ -1,23 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "237fe279b05fe9282f24",
-    "url": "/Takashi-PortFolio/css/app1.313e370c.css"
+    "revision": "208249634d24452c77c9",
+    "url": "/Takashi-PortFolio/css/app1.a467a0c2.css"
   },
   {
-    "revision": "237fe279b05fe9282f24",
-    "url": "/Takashi-PortFolio/js/app1.6e9c2052.js"
+    "revision": "208249634d24452c77c9",
+    "url": "/Takashi-PortFolio/js/app1.8a502938.js"
   },
   {
-    "revision": "80da94dbaa6a91f50629",
+    "revision": "80bf3af4b4f958b864c2",
     "url": "/Takashi-PortFolio/css/chunk-vendors.66440731.css"
   },
   {
-    "revision": "80da94dbaa6a91f50629",
-    "url": "/Takashi-PortFolio/js/chunk-vendors.5069f691.js"
-  },
-  {
-    "revision": "f506ee3f64405867371bbcd445110321",
-    "url": "/Takashi-PortFolio/img/TSU413003.f506ee3f.jpg"
+    "revision": "80bf3af4b4f958b864c2",
+    "url": "/Takashi-PortFolio/js/chunk-vendors.47c352f4.js"
   },
   {
     "revision": "7c3f5e056dcda3f9b6f0b6393cba891a",
@@ -26,6 +22,10 @@ self.__precacheManifest = [
   {
     "revision": "cfe47dd6d200925583afd4a57ca069af",
     "url": "/Takashi-PortFolio/img/susi1027481.cfe47dd6.jpg"
+  },
+  {
+    "revision": "f506ee3f64405867371bbcd445110321",
+    "url": "/Takashi-PortFolio/img/TSU413003.f506ee3f.jpg"
   },
   {
     "revision": "dd41148ccbb2109da3f9a59436e6e634",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/Takashi-PortFolio/img/TSU413016.cbe85e1a.jpg"
   },
   {
-    "revision": "84286ecc226a4961c28d91ff51c03ebc",
+    "revision": "3e0aa0ebd98fff4a970751859b726d7f",
     "url": "/Takashi-PortFolio/app1.html"
   },
   {
