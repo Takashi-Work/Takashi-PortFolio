@@ -63,6 +63,7 @@ export default {
 
     send (){
         axios.post('https://script.google.com/macros/s/AKfycby8QC05RhUpLUbzOHei5NmTZYdy6hLeGHE-z-bstk0gp6dk4is/exec', {
+          crossDomain: true ,
           first_name: this.first_name,
           last_name: this.last_name,
           e_mail: this.e_mail,
