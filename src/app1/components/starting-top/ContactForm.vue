@@ -62,7 +62,7 @@ export default {
   methods: {
 
     send (){
-        axios.post('https://script.google.com/d/171mTyF1671cvOnK4UBsYLU89b8emT00bWYaWoBfme7cACW7IaUScPssG/edit?usp=drive_web&folder=0AF30BaPPMzfXUk9PVA&splash=yes', {
+        axios.post('https://script.google.com/macros/s/AKfycbwi10ReYp1j3ZE9YajfMMCBzjmftYFPa510uJ_V0NykjRJWEKU/exec', {
           first_name: this.first_name,
           last_name: this.last_name,
           e_mail: this.e_mail,
