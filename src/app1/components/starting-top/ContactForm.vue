@@ -39,7 +39,7 @@
      </div>
      <div class="row100">
        <div class="col">
-         <input type ="submit" @click="send()">
+         <input type ="submit" >
        </div>
      </div>
    </div>
@@ -47,7 +47,6 @@
 </template>
 
 <script>
-import axios from 'axios'
 export default {
   name: 'Infometion',
   data () {
@@ -58,29 +57,6 @@ export default {
       message: ''
     }
   },
-
-  methods: {
-
-    send (){
-        axios.post('https://script.google.com/macros/s/AKfycby8QC05RhUpLUbzOHei5NmTZYdy6hLeGHE-z-bstk0gp6dk4is/exec', {
-          withCredentials: true,
-          first_name: this.first_name,
-          last_name: this.last_name,
-          e_mail: this.e_mail,
-          message: this.message
-        
-        })
-          .then(response => {
-           
-           console.log(response);
-          })
-          .catch(error => {
-            console.log(error.response)
-  
-          })
-    }
-
-  }
 }
 </script>
 
