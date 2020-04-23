@@ -20,12 +20,7 @@
             <div class="front" id="frontCover" @click="p_openS">
               <h1><i><span>My</span>  Skill  <span>&</span>  Work  <span>Book.</span></i></h1>
               <h1><i>Click~Here</i></h1>
-              <p>
-
-              </p>
-               <p>
-
-              </p>
+             
             </div>
 
             <div class="back" id="list" @click="p_closeS" >
@@ -33,62 +28,97 @@
                <div v-if="isActive2 == true">
                <SkillBar />
                </div>
-              <p>
-                   
-              </p>
-               <p>
-                  
-              </p>
+             
             </div>
          </section>
 
           <section class="page" v-bind:class="[{ active: isActive2 , 'open2': opens2 ,  'close2': closes2}]" >
             <div class="front"  @click="p_open2">
-              <h1>2</h1>
-              <p>
-                   Vue (発音は / v j u ː / 、 view と同様）はユーザーインターフェイスを構築するためのプログレッシブフレームワークです。他の一枚板(モノリシック: monolithic)なフレームワークとは異なり、
-                   Vue は少しずつ適用していけるように設計されています。中核となるライブラリは view 層だけに焦点を当てています。そのため、使い始めるのも、他のライブラリや既存のプロジェクトに統合するのも、
-                   とても簡単です。また、モダンなツールやサポートライブラリと併用することで、洗練されたシングルページアプリケーションの開発も可能です。
-                  
-              </p>
-               <p>
-                   / v j u ː / 、 view と同様）はユーザーインターフェイスを構築するためのプログレッシブフレームワークです。他の一枚板(モノリシック: monolithic)なフレームワークとは異なり、
-                   Vue は少しずつ適用していけるように設計されています。中核となるライブラリは view 層だけに焦点を当てています。そのため、使い始めるのも、他のライブラリや既存のプロジェクトに統合するのも、
-                   とても簡単です。また、モダンなツールやサポートライブラリと併用することで、洗練されたシングルページアプリケーションの開発も可能です。
-
-              </p>
+              <h1>SkillList</h1>
+               <div v-if="isActive2 == true">
+               <SkillBar2 />
+               </div>
             </div>
 
             <div class="back"  @click="p_close2">
-              <h1>3</h1>
-               <p>
-                
-                    あなたが Vue についてもっと深く学ぶ前に概要を知りたいのなら、中核となる原則とサンプルプロジェクトを元に説明するビデオを作成しているので、
-                    それを見るとよいでしょう
+                <div class="header_title">
+                   <h3>事業者向けWEB出退勤管理システム開発 </h3>
+                </div>
+                <div class="middle_title">
+                   <h4> 開発期間　2020年 1月10日　～　3月6日 </h4>
+                </div>
+              
+                   <div class="used1">
+                     <h4>使用言語　PHP JavaScript</h4>  
 
-              </p>
-               <p>
-                。また、モダンなツールやサポートライブラリと併用することで、洗練されたシングルページアプリケーションの開発も可能です。
+                     <h5>使用ライブラリ Jquery </h5> 
 
-              </p>
+                     <h5>使用データベース　Mysql</h5> 
+                   </div>
+
+                   <div class="used2">
+                     <h4>担当フェーズ</h4> 
+
+                     <h5>ワイヤーフレームの製作</h5> 
+
+                     <h5>データベース設計</h5> 
+
+                     <h5>設計  構築  テスト</h5> 
+
+                   
+                    </div>　
+
+                    <div class="used3">　　
+                      <h5>非同期通信(Ajax)を使いSPA(シングルページアプリケーション)を意識した</h5>
+                      
+                      <h5> 開発を行ってます</h5>　
+                　  </div>
             </div>
          </section>
 
          <section class="page" v-bind:class="[{ active: isActiveE , 'openE': opensE ,  'closeE': closesE}]">
             <div class="front" @click="p_openE">
-              <h1>4</h1>
-              <p>
-                   Vue (発音は / v j u ː / 、 view と同様）はユーザーインターフェイスを構築するためのプログレッシブフレームワークです。他の一枚板(モノリシック: monolithic)なフレームワークとは異なり、
-                  
-              </p>
-               <p>
-                   Vue (発音は / v j u ː / 、 view と同様）はユーザーインターフェイスを構築するためのプログレッシブフレームワークです。他の一枚板(モノリシック: monolithic)なフレームワークとは異なり、
-                  
-              </p>
+             <div class="header_title">
+                   <h3>受託案件への　機能 追加・改修 </h3>
+                </div>
+                <div class="middle_title">
+                   <h4> 開発期間　2020年 3月12日　～　4月10日 </h4>
+                </div>
+              
+                   <div class="used1">
+                     <h4>使用言語　PHP JavaScript</h4>  
+
+                     <h5>使用フレームワーク Laravel Vue.js </h5> 
+
+                     <h5>使用データベース　Mysql</h5> 
+                   </div>
+
+                   <div class="used2">
+                     <h4>担当フェーズ</h4> 
+
+                     <h5>機能　追加・改修</h5> 
+
+                     <h5>データベース変更</h5> 
+
+                     <h5>レスポンシブ対応</h5>
+
+                     <h5>レイアウト変更</h5>
+
+                    </div>　
+
+                    <div class="used3">　　
+                      <h5>非同期通信(Axios)使用したAPIとの通信処理</h5>
+
+                      <h5>特定フェーズ以降入力項目が変更できないように変更</h5>
+
+                      <h5>新規マスタ画面追加 や 画面にソート機能を追加</h5>
+
+                      <h5>ドラッグ&ドロップを使用した並び替え機能の追加</h5>　
+                　  </div>
             </div>
 
             <div class="back" @click="p_closeE" id="endCover" >
-              <h1></h1>
+               <h1><i>Thank you For Reading it Until the Very End</i></h1>
                <p>
 
               </p>
@@ -103,10 +133,12 @@
 </template>
 <script>
 import SkillBar from '@/app1/components/modules/SkillBar.vue'
+import SkillBar2 from '@/app1/components/modules/SkillBar2.vue'
 export default {
   name: 'Book',
   components: {
-    SkillBar
+    SkillBar,
+    SkillBar2
   },
   data: () => {
     return {
@@ -441,6 +473,35 @@ h1
     background: -webkit-gradient(linear, 0% 0%,
      100% 100%, from(#ffffff), to(#cccccc));
   }
+
+  .header_title{
+   width:100%;
+   text-align: center;
+  }
+
+  .middle_title{
+    width: 100%;
+    text-align: center;
+    margin-top:23px;
+  }
+
+  .used1{
+    margin-top:20px;
+    padding-left:20px;
+    float:left;
+    width:48%;
+  }
+  .used2{
+    margin-top:20px;
+    padding-left:29px;
+    float:right;
+    width:48%;
+  }
+  .used3{
+    margin-top:220px;
+    padding-left:20px;
+    width:100%;
+  }
   .front::-webkit-scrollbar
   {
     display:none;
@@ -514,6 +575,37 @@ h1
     backface-visibility: visible;
     background: url('../../assets/photos/TSU413013_TP_V.jpg');
     background-size: cover;
+
+     h1
+    {
+      padding-top: 20px;
+      text-align: center;
+      color: #fff;
+      font-size: 45px;
+      font-weight: 40px;
+      font-family: 'Segoe Script';
+
+      span
+      {
+        font-size: 51px;
+        color: #fff;
+      }
+    }
+    h2
+    {
+      padding-top: 20px;
+      text-align: center;
+      color: rgba(0, 2, 97, 0.787);
+      font-size: 50px;
+      font-weight: 45px;
+      font-family: 'Segoe Script';
+    }
+
+    p
+    {
+      margin: 0 0 0.1em;
+      text-indent: 1em;
+    }
   }
 }
 p

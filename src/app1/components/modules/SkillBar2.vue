@@ -3,7 +3,7 @@
    <div class="container">
 
     <div class="skills">
-      <span class="Name">PHP</span>  
+      <span class="Name">Laravel</span>  
       <div class="percent">
         <div class="progress"></div>  
       </div>
@@ -11,15 +11,7 @@
     </div>
 
     <div class="skills">
-      <span class="Name">JavaScript</span>  
-      <div class="percent">
-        <div class="progress"></div>  
-      </div>
-      <span class="Value">35%</span>
-    </div>
-
-    <div class="skills">
-      <span class="Name">Jquery</span>  
+      <span class="Name">Vue.js</span>  
       <div class="percent">
         <div class="progress"></div>  
       </div>
@@ -27,13 +19,12 @@
     </div>
     
     <div class="skills">
-      <span class="Name">MYSQL</span>  
+      <span class="Name">Html & Css</span>  
       <div class="percent">
         <div class="progress"></div>  
       </div>
-      <span class="Value">35%</span>
+      <span class="Value">45%</span>
     </div>
-
 
    </div> 
   </div> 
@@ -41,7 +32,7 @@
 
 <script>
 export default {
-  name: 'SkillBar',
+  name: 'SkillBar2',
   data: () => {
     return {
 
@@ -130,7 +121,7 @@ export default {
             width: 70%;
             height: 100%;
             border-radius: 10px;
-            background: rgb(64, 132, 196);
+            background: rgb(92, 243, 160);
             box-shadow: inset 0 0 2px #000;
             animation: animate 3s ease-in-out forwards;
         }
@@ -180,7 +171,7 @@ export default {
 
             to
             {
-               width: 35%;
+               width: 40%;
             }
         }
     }
@@ -218,44 +209,7 @@ export default {
 
             to
             {
-               width: 40%;
-            }
-        }
-    }
-
-    .skills:nth-child(4) .percent
-    {
-        position: relative;
-        width: calc(100% - 150px);
-        height: 20px;
-        margin: 0 10px;
-        border-radius: 10px;
-        background: #151515;
-        box-shadow: inset 0 0 10px #000;
-        overflow: hidden;
-
-        .progress
-        {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 70%;
-            height: 100%;
-            border-radius: 10px;
-            background: rgb(103, 37, 226);
-            box-shadow: inset 0 0 2px #000;
-            animation: animate4 3s ease-in-out forwards;
-        }
-        @keyframes animate4
-        {
-            from
-            {
-               width: 0%;
-            }
-
-            to
-            {
-               width: 35%;
+               width: 45%;
             }
         }
     }

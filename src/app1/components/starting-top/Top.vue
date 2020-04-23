@@ -157,19 +157,8 @@ export default {
            }
          }
        }
-       &.show
-       {
-         overflow: hidden;
-         pointer-events: none;
-
-         justify-content: center;
-         box-shadow: 0 0 30px rgba(0,0,0,0.9);
-         transform-style: preserve-3d;
-         transform-origin:right ;
-         transition: all 0.8s ease-in-out;
-         transform: rotateY(-14deg);
-       }
-        @media (max-width: 600px) {
+     
+       @media (max-width: 600px) {
           &.show
           {
             overflow: hidden;
@@ -180,6 +169,58 @@ export default {
             transform-origin:right ;
             transition: all 0.8s ease-in-out;
             transform: rotateY(-46deg);
+          }
+       } 
+       @media (min-width: 600px) {
+          &.show
+          {
+            overflow: hidden;
+            pointer-events: none;
+            justify-content: center;
+            box-shadow: 0 0 30px rgba(0,0,0,0.9);
+            transform-style: preserve-3d;
+            transform-origin:right ;
+            transition: all 0.8s ease-in-out;
+            transform: rotateY(-30deg);
+          }
+       } 
+       @media (min-width: 800px) {
+          &.show
+          {
+            overflow: hidden;
+            pointer-events: none;
+            justify-content: center;
+            box-shadow: 0 0 30px rgba(0,0,0,0.9);
+            transform-style: preserve-3d;
+            transform-origin:right ;
+            transition: all 0.8s ease-in-out;
+            transform: rotateY(-28deg);
+          }
+       } 
+       @media (min-width: 1000px) {
+          &.show
+          {
+            overflow: hidden;
+            pointer-events: none;
+            justify-content: center;
+            box-shadow: 0 0 30px rgba(0,0,0,0.9);
+            transform-style: preserve-3d;
+            transform-origin:right ;
+            transition: all 0.8s ease-in-out;
+            transform: rotateY(-18deg);
+          }
+       } 
+       @media (min-width: 1200px) {
+          &.show
+          {
+            overflow: hidden;
+            pointer-events: none;
+            justify-content: center;
+            box-shadow: 0 0 30px rgba(0,0,0,0.9);
+            transform-style: preserve-3d;
+            transform-origin:right ;
+            transition: all 0.8s ease-in-out;
+            transform: rotateY(-14deg);
           }
        } 
        &.closed
