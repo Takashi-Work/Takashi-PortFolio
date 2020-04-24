@@ -4,7 +4,7 @@ import Home from './views/top/Home.vue'
 import Contact from './views/top/Contact.vue'
 import Profile from './views/top/Profile.vue'
 import Work from './views/top/Work.vue'
-import Skills from './views/top/Skills.vue'
+
 
 
 Vue.use(Router)
@@ -40,10 +40,6 @@ export default new Router({
       name: 'work',
       component: Work
     },
-    {
-      path: '/skills',
-      name: 'sills',
-      component: Skills
-    }
+   
   ]
 })
