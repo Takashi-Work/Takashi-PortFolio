@@ -102,7 +102,7 @@ export default {
   position: relative;
   width: 100%;
   height: 40px;
-  color: #6435e7;
+  color:#fff;
 }
 
 .container .row100 .inputBox.textarea textarea::-webkit-scrollbar{  /* Chrome, Safari 対応 */
@@ -147,7 +147,7 @@ export default {
   display: block;
   width: 100%;
   height: 2px;
-  background:  #6435e7;
+  background:  #fff;
   transition: 0.5s;
   border-radius: 2px;
   pointer-events: none;
@@ -191,7 +191,7 @@ input[type="submit"]
    padding: 7px 35px;
    cursor: pointer;
    outline: none;
-   background: #6435e7;
+   background: #fff;
    color: #000;
    font-size: 18px;
    border-radius: 2px;
