@@ -8,6 +8,7 @@
         <div class="progress"></div>  
       </div>
       <span class="Value">50%</span>
+      <h3>PHP　約１０ヵ月</h3>
     </div>
 
     <div class="skills">
