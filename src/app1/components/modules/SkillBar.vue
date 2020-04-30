@@ -9,7 +9,7 @@
       </div>
       <span class="Value">50%</span>
     </div>
-      <h4>PHP:10ヵ月</h4>
+      <h4>PHP約10ヵ月</h4>
 
     <div class="skills">
       <span class="Name">JavaScript</span>  
@@ -18,7 +18,6 @@
       </div>
       <span class="Value">35%</span>
     </div>
-      <h4>JavaScript:10ヵ月</h4>
 
     <div class="skills">
       <span class="Name">Jquery</span>  
@@ -27,8 +26,7 @@
       </div>
       <span class="Value">40%</span>
     </div>
-      <h4>Jquery:10ヵ月</h4>
-
+    
     <div class="skills">
       <span class="Name">MYSQL</span>  
       <div class="percent">
@@ -36,7 +34,6 @@
       </div>
       <span class="Value">35%</span>
     </div>
-       <h4>MYSQL:10ヵ月</h4>
 
 
    </div> 
