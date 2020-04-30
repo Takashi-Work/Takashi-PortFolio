@@ -68,6 +68,10 @@ export default {
     position: relative;
     width: 100%;
 
+    h4{
+      text-align: center;
+    }
+
     .skills
     {
         position: relative;
