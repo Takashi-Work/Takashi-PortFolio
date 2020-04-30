@@ -9,6 +9,7 @@
       </div>
       <span class="Value">50%</span>
     </div>
+       <h4><i>Laravel</i> 7ヵ月</h4>
 
     <div class="skills">
       <span class="Name">Vue.js</span>  
@@ -17,6 +18,7 @@
       </div>
       <span class="Value">40%</span>
     </div>
+       <h4><i>Vue.js</i> 7ヵ月</h4>
     
     <div class="skills">
       <span class="Name">Html & Css</span>  
@@ -25,6 +27,7 @@
       </div>
       <span class="Value">45%</span>
     </div>
+       <h4><i>Html & Css</i> 10ヵ月</h4>
 
    </div> 
   </div> 
@@ -55,6 +58,10 @@ export default {
 {
     position: relative;
     width: 100%;
+
+    h4{
+      text-align: center;
+    }
 
     .skills
     {
