@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "aa3321a7a4c953371370",
-    "url": "/Takashi-PortFolio/css/app1.bd86f7d7.css"
+    "revision": "da2d70e2cc47584116e5",
+    "url": "/Takashi-PortFolio/css/app1.483b6854.css"
   },
   {
-    "revision": "aa3321a7a4c953371370",
-    "url": "/Takashi-PortFolio/js/app1.4b641f7b.js"
+    "revision": "da2d70e2cc47584116e5",
+    "url": "/Takashi-PortFolio/js/app1.4a717ae6.js"
   },
   {
     "revision": "80da94dbaa6a91f50629",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/Takashi-PortFolio/img/TSU413016.cbe85e1a.jpg"
   },
   {
-    "revision": "425ff0c677f280594652af662ba9f8a6",
+    "revision": "50fd4c35984353e871be27ecc3a1dbb1",
     "url": "/Takashi-PortFolio/app1.html"
   },
   {
