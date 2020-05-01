@@ -9,7 +9,7 @@
       </div>
       <span class="Value">50%</span>
     </div>
-      <h5><i>PHP:</i>10ヵ月の業務経験、アプリケーション製作等で得た知識</h5>
+      <h5><i>PHP</i> :  10ヵ月の業務経験、アプリケーション製作等で得た知識</h5>
 
     <div class="skills">
       <span class="Name">JavaScript</span>  
@@ -18,7 +18,7 @@
       </div>
       <span class="Value">35%</span>
     </div>
-     <h4><i>JavaScript:</i>アプリケーション製作での非同期通信(Ajax)等の知識</h4>
+     <h5><i>JavaScript</i> :  アプリケーション製作で使用する非同期通信(Ajax)等の知識</h5>
 
     <div class="skills">
       <span class="Name">Jquery</span>  
@@ -27,7 +27,7 @@
       </div>
       <span class="Value">40%</span>
     </div>
-      <h4><i>Jquery</i> 10ヵ月</h4>
+      <h5><i>Jquery</i> :  アプリケーション製作で使用する非同期通信(Ajax)等の知識</h5>
     
     <div class="skills">
       <span class="Name">MYSQL</span>  
@@ -36,7 +36,7 @@
       </div>
       <span class="Value">35%</span>
     </div>
-       <h4><i>Mysql</i> 10ヵ月</h4>
+       <h5><i>Mysql</i> :  アプリケーション製作で使用する リレーショナルデータベースの基礎知識</h5>
 
    </div> 
   </div> 
@@ -68,7 +68,7 @@ export default {
     position: relative;
     width: 100%;
 
-    h4{
+    h5{
       text-align: center;
     }
 
