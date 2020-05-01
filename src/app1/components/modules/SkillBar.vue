@@ -7,9 +7,9 @@
       <div class="percent">
         <div class="progress"></div>  
       </div>
-      <span class="Value">10ヵ月</span>
+      <span class="Value">50%</span>
     </div>
-      <h4><i>PHP</i> 10ヵ月</h4>
+      <h5><i>PHP:</i>10ヵ月の業務経験、アプリケーション製作等で得た知識</h5>
 
     <div class="skills">
       <span class="Name">JavaScript</span>  
@@ -18,7 +18,7 @@
       </div>
       <span class="Value">35%</span>
     </div>
-     <h4><i>JavaScript</i> 10ヵ月</h4>
+     <h4><i>JavaScript:</i>アプリケーション製作での非同期通信(Ajax)等の知識</h4>
 
     <div class="skills">
       <span class="Name">Jquery</span>  
