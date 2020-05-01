@@ -26,7 +26,7 @@
 
              <div class="career-mes">
                  <p>現在、株式会社<span>B-FORME</span>にてインターンとして勉強させて戴いています。<br>
-                   <span>Source Tree</span>を使用した<span>Git</span>でのコード管理の下<br>
+                   <span>Source Tree</span>を使用した<span>Git</span>でのコード管理の基<br>
                    <span>PHP</span><span>JavaScript</span><span>Jquery</span><span>Html.Css</span><span>Mysql</span>等を使用した<span>Web</span>アプリケーション製作<br>
                    <span>Laravel</span><span>Vue.js</span>を使用した、受諾案件への機能追加 修正を担当させて貰っています<br>
                    <br>

@@ -7,7 +7,7 @@
       <div class="percent">
         <div class="progress"></div>  
       </div>
-      <span class="Value">50%</span>
+      <span class="Value">10ヵ月</span>
     </div>
       <h4><i>PHP</i> 10ヵ月</h4>
 
