@@ -9,7 +9,7 @@
       </div>
       <span class="Value">50%</span>
     </div>
-       <h5><i>Laravel</i> 受託案件業務で使用　フロント(Vue.js)側との通信で使用するエンドポイントの作成等の知識</h5>
+       <h5><i>Laravel</i> : 受託案件業務で使用　フロント(Vue.js)側との通信で使用するエンドポイントの作成等の知識</h5>
 
     <div class="skills">
       <span class="Name">Vue.js</span>  
@@ -18,7 +18,7 @@
       </div>
       <span class="Value">40%</span>
     </div>
-       <h5><i>Vue.js</i> 受託案件業務で使用 APIサーバー(Laravel)側との非同期通信(Axios)でのデータ取得等の知識</h5>
+       <h5><i>Vue.js</i> : 受託案件業務で使用 APIサーバー(Laravel)側との非同期通信(Axios)でのデータ取得等の知識</h5>
     
     <div class="skills">
       <span class="Name">Html & Css</span>  
@@ -27,7 +27,7 @@
       </div>
       <span class="Value">45%</span>
     </div>
-       <h5><i>Html & Css</i> 10ヵ月の業務全般で使用</h5>
+       <h5><i>Html & Css</i> : 10ヵ月の業務全般で使用</h5>
 
    </div> 
   </div> 
