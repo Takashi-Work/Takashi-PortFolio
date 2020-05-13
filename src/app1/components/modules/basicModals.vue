@@ -244,7 +244,7 @@
       clear: both;
 
       .profile-pict {
-        background-image:url('../../assets/photos/TSU413003.jpg');
+        background-image:url('../../assets/photos/image1 (1).jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center,center;
@@ -432,7 +432,7 @@
       clear: both;
 
       .profile-pict{
-        background-image:url('../../assets/photos/TSU413003.jpg');
+        background-image:url('../../assets/photos/image1 (1).jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center,center;
@@ -621,7 +621,7 @@
 
       .profile-pict{
         transform:skewX(25deg);
-        background-image:url('../../assets/photos/TSU413003.jpg');
+        background-image:url('../../assets/photos/image1 (1).jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center,center;

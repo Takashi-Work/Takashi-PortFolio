@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Takashi-PortFolio/precache-manifest.726de358a1fc3fe3f71740f3d6a21f09.js"
+  "/Takashi-PortFolio/precache-manifest.f57f0f471f245da456c833fb0e274cf6.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "frontend"});

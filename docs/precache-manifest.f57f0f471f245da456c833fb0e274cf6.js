@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "55d8545ed91f13ac7aba",
-    "url": "/Takashi-PortFolio/css/app1.4968cf53.css"
+    "revision": "d176335d8d060ca3e13a",
+    "url": "/Takashi-PortFolio/css/app1.bd14d36e.css"
   },
   {
-    "revision": "55d8545ed91f13ac7aba",
-    "url": "/Takashi-PortFolio/js/app1.180d7ffd.js"
+    "revision": "d176335d8d060ca3e13a",
+    "url": "/Takashi-PortFolio/js/app1.94aead8b.js"
   },
   {
     "revision": "80da94dbaa6a91f50629",
@@ -24,6 +24,14 @@ self.__precacheManifest = [
     "url": "/Takashi-PortFolio/img/susi1027481.cfe47dd6.jpg"
   },
   {
+    "revision": "dd41148ccbb2109da3f9a59436e6e634",
+    "url": "/Takashi-PortFolio/img/MIYA19224blueDSC_6386_TP_V.dd41148c.jpg"
+  },
+  {
+    "revision": "1994422c0c816c41f9754baca5ca998e",
+    "url": "/Takashi-PortFolio/img/image1 (1).1994422c.jpg"
+  },
+  {
     "revision": "5b1825868b67767af4d92bccef7928d0",
     "url": "/Takashi-PortFolio/img/TSU413013_TP_V.5b182586.jpg"
   },
@@ -36,10 +44,6 @@ self.__precacheManifest = [
     "url": "/Takashi-PortFolio/img/TSU413003.f506ee3f.jpg"
   },
   {
-    "revision": "dd41148ccbb2109da3f9a59436e6e634",
-    "url": "/Takashi-PortFolio/img/MIYA19224blueDSC_6386_TP_V.dd41148c.jpg"
-  },
-  {
     "revision": "a2a153a474215b79d5426f8c058547c7",
     "url": "/Takashi-PortFolio/img/TSU413012_TP_V.a2a153a4.jpg"
   },
@@ -48,7 +52,7 @@ self.__precacheManifest = [
     "url": "/Takashi-PortFolio/img/TSU413016.cbe85e1a.jpg"
   },
   {
-    "revision": "eb375b2c1bf8d2912c0ad8a524cca831",
+    "revision": "45194baeab2b659a972e33e22a06d74c",
     "url": "/Takashi-PortFolio/app1.html"
   },
   {
